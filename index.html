@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!--IE Compatibility-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- add the responsive viewport meta tag [first mobile meta]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Animated Sidebar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+
+    <!--start side bar-->
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand h2">
+                    <a href="#">
+                        Sidebar Navigation
+                    </a>
+                </li>
+                <li>
+                   <i class="fa fa-lg fa-home"></i>
+                    <a href="#">Home</a>
+                    
+                </li>
+                <li>
+                   <i class="fa fa-lg fa-briefcase"></i>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                   <i class="fa fa-lg fa-calendar"></i>
+                    <a href="#">Events</a>
+                </li>
+                <li class="dropdown">
+                    <i class="fa fa-lg fa-copy"></i>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li style="font-size:12px;margin-left:22px" class="dropdown-header">Please Select Choice</li>
+                        <li><a style="margin-left:39px" href="#">Page 1</a></li>
+                        <li><a style="margin-left:39px" href="#">Page 2</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                   <i class="fa fa-lg fa-users"></i>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Works <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li style="font-size:12px;margin-left:22px" class="dropdown-header">Please Select Choice</li>
+                        <li><a style="margin-left:39px" href="#">Action</a></li>
+                        <li><a style="margin-left:39px" href="#">Another action</a></li>
+                        <li><a style="margin-left:39px" href="#">Something else here</a></li>
+                        <li><a style="margin-left:39px" href="#">Separated link</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <i class="fa fa-lg fa-image"></i>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <i class="fa fa-lg fa-paper-plane"></i>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <i class="fa fa-lg fa-globe"></i>
+                    <a href="#">Follow me</a>
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <button class="btn btn-lg btn-primary">Download Source</button>
+                </li>
+            </ul>
+            
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            
+            <div class="jumbotron">
+                <div class="container">
+                <h1>Fancy Toggle Sidebar Navigation</h1>
+                <p class="lead">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+               
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!--end side bar-->
+    <!--start footer-->
+    <div class="footer">
+        <div class="container">
+            <p>Made with love by <a href="https://ahmed-portfolio.000webhostapp.com/" target="_blank">Ahmed Amer</a> Contribute on <a href="https://github.com/Ahmed-Amer/Right-Sidebar.git" target="_blank">GitHub</a></p>
+        </div>
+    </div>
+     <!--end footer-->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
